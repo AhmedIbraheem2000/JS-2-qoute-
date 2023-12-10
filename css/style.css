@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    width: 600px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+    box-shadow: rgba(100, 100, 111, 0.365) 0px 7px 29px 0px;
+}
+.wrapper h1{
+    font-weight: 600; 
+}
+.wrapper .content .quote{
+    word-break: break-all;
+}
+.wrapper .content{
+    margin: 35px 0;
+}
+.wrapper .content .quote i{
+    font-size: 15px;
+}
+.wrapper .content .quote i:first-child{
+    margin: 3px 10px 0 0 ;
+}
+.wrapper .content .quote i:last-child{
+    margin:0 0 3px 10px  ;
+}
+.wrapper .button{
+    border-top: 1px solid #ccc;
+}
+.wrapper .button ul li{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    border: 2px solid #949494;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.wrapper .button ul li:hover{
+    color: #fff;
+    background-color: #949494;
+}
+.wrapper button{
+    border: none;
+    outline: none;
+    background-color: #949494;
+    color:#fff ;
+    padding: 14px 22px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.wrapper button:hover{
+    background-color: #686464;
+
+}
